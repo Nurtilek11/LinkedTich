@@ -702,6 +702,7 @@
      -moz-column-gap: 125px;
           column-gap: 125px;
   margin-top: 7px;
+  margin-left: 35px;
 }
 .online__card__price3 {
   color: var(--B, #030D15);
@@ -714,6 +715,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 40px;
+  margin-left: 35px;
 }
 .online__card__price3__price4 {
   color: var(--B, #030D15);
@@ -739,13 +741,50 @@
      -moz-column-gap: 70px;
           column-gap: 70px;
 }
-.online__card__info__mark {
+.online__card__info__mark2 {
   color: var(--B, #030D15);
   font-family: Hind Siliguri sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin: 85px 0 0 35px;
+}
+.online__card__info__mark1 {
+  color: var(--B, #030D15);
+  font-family: Hind Siliguri sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 30px 0 0 35px;
+}
+.online__card__info__mark3 {
+  color: var(--B, #030D15);
+  font-family: Hind Siliguri sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 20px 0 0 35px;
+}
+.online__card__info__mark4 {
+  color: var(--B, #030D15);
+  font-family: Hind Siliguri sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 42px 0 0 35px;
+}
+.online__card__info__mark5 {
+  color: var(--B, #030D15);
+  font-family: Hind Siliguri sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 85px 0 0 35px;
 }
 .online__card__info__p {
   width: 22px;
@@ -773,6 +812,7 @@
   height: 232px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  background: url, lightgray 50%/cover no-repeat;
   margin: 74px 59px 0 59px;
 }
 .online__card__img3 {
@@ -795,6 +835,7 @@
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin-top: 7px;
+  margin-left: 35px;
 }
 .online__card__img5 {
   width: 275px;
@@ -828,6 +869,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 35px;
 }
 .online__card__price1__price2 {
   color: var(--B, #030D15);
@@ -884,6 +926,7 @@
   color: var(--B, #030D15);
   font-family: Hind Siliguri sans-serif;
   width: 457px;
+  text-align: center;
   opacity: 0.6;
   font-size: 16px;
   font-style: normal;
@@ -966,30 +1009,59 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.offline__card__im1 {
+.offline__cardes__pryce3 {
+  color: var(--B, #030D15);
+  font-family: Hind Siliguri sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+.offline__cardes__pryce4 {
+  color: var(--B, #030D15);
+  font-family: Hind Siliguri sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+  text-decoration-line: line-through;
+  opacity: 0.5;
+}
+.offline__cardes__card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFF;
+}
+.offline__cardes__card__im1 {
   width: 360px;
   height: 354px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background: url, lightgray 59.671px 46.048px/67.594% 68.74% no-repeat;
+  background: #FFF;
 }
-.offline__card__img2 {
-  width: 360px;
-  height: 456px;
+.offline__cardes__card__im1__ine {
+  width: 220px;
+  height: 161px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  background: #FFF;
-  margin-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.offline__card__info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-column-gap: 70px;
-     -moz-column-gap: 70px;
-          column-gap: 70px;
-  margin: 53px 35px 28px 35px;
+.offline__cardes__card__img2 {
+  width: 300px;
+  height: 400px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #FFF;
+  margin: 36px 37px 45px 25px;
 }
 
 .form {
@@ -1081,4 +1153,92 @@
   font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.footer {
+  background: #030D15;
+  height: 396px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.footer__texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 31px;
+     -moz-column-gap: 31px;
+          column-gap: 31px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer__texts__url {
+  -webkit-column-gap: 26px;
+     -moz-column-gap: 26px;
+          column-gap: 26px;
+  margin-top: 75px;
+}
+.footer__texts__url__h1 {
+  width: 164px;
+  color: #FFF;
+  font-family: Hind Siliguri sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer__texts__url__ul {
+  color: #FFF;
+  font-family: Hind Siliguri sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+  width: 164px;
+  margin-top: 26px;
+}
+.footer__texts__url__li {
+  margin-top: 15px;
+}
+.footer__texts__url__store {
+  color: #FFF;
+  font-family: Hind Siliguri sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 261px;
+  opacity: 0.6;
+  margin-top: 22px;
+}
+.footer__texts__url__english {
+  color: #FFF;
+  font-family: Hind Siliguri sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 26px;
+}
+.footer__texts__url__span {
+  width: 174.641px;
+  height: 15.25px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  opacity: 0.6;
+  margin-top: 16px;
+}
+.footer__texts__url__com {
+  color: #FFF;
+  font-family: Hind Siliguri sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 261px;
+  margin-top: 14px;
 }

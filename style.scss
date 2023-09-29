@@ -576,6 +576,7 @@
       display: flex;
       column-gap: 125px;
       margin-top: 7px;
+      margin-left: 35px;
     }
 
     &__price3 {
@@ -587,6 +588,7 @@
       line-height: 27px;
       display: flex;
       margin-top: 40px;
+      margin-left:35px;
 
       &__price4 {
         color: var(--B, #030D15);
@@ -605,14 +607,50 @@
       align-items: center;
       justify-content: center;
       column-gap: 70px;
-
-      &__mark {
+      &__mark2 {
         color: var(--B, #030D15);
         font-family: Hind Siliguri sans-serif;
         font-size: 25px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        margin:85px 0 0 35px ;
+      }
+      &__mark1 {
+        color: var(--B, #030D15);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin:30px 0 0 35px ;
+      }
+      &__mark3{
+        color: var(--B, #030D15);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 20px 0 0 35px;
+      }
+      &__mark4{
+        color: var(--B, #030D15);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin:42px 0 0 35px;
+      }
+      &__mark5{
+        color: var(--B, #030D15);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin:85px 0 0 35px;
       }
 
       &__p {
@@ -642,6 +680,7 @@
       width: 243px;
       height: 232px;
       flex-shrink: 0;
+      background: url, lightgray 50% / cover no-repeat;
       margin: 74px 59px 0 59px;
     }
 
@@ -664,6 +703,7 @@
       height: 15.216px;
       flex-shrink: 0;
       margin-top: 7px;
+      margin-left: 35px;
     }
 
     &__img5 {
@@ -697,6 +737,7 @@
       font-weight: 500;
       line-height: 27px;
       display: flex;
+      margin-left:35px;
 
       &__price2 {
         color: var(--B, #030D15);
@@ -726,7 +767,7 @@
 .offline {
   padding-top: 150px;
   &__fer {
-    &__subtitle {
+    &__subtitle{
       color: var(--c-72535, #C72535);
       text-align: center;
       font-family: Hind Siliguri sans-serif;
@@ -752,6 +793,7 @@
       color: var(--B, #030D15);
       font-family: Hind Siliguri sans-serif;
       width: 457px;
+      text-align: center;
       opacity: 0.6;
       font-size: 16px;
       font-style: normal;
@@ -820,29 +862,54 @@
     }
   }
 
-  &__card {
-
-    &__im1{
-      width: 360px;
-      height: 354px;
-      flex-shrink: 0;
-      border: 1px solid rgba(0, 0, 0, 0.10);
-      background: url, lightgray 59.671px 46.048px / 67.594% 68.74% no-repeat;
-    }
-    &__img2{
-      width: 360px;
-      height: 456px;
-      flex-shrink: 0;
-      background: #FFF;
-      margin-top: 30px;
-    }
-    &__info{
+  &__cardes{
+    &__pryce3 {
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 27px;
       display: flex;
-      column-gap: 70px;
-      margin:53px 35px 28px 35px;
+      margin-top: 40px;
+    }
+    &__pryce4{
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 27px;
+      text-decoration-line: line-through;
+      opacity: 0.5;
+    }
+    &__card {
+      align-items: center;
+      background: #FFF;
+      &__im1{
+        width: 360px;
+        height: 354px;
+        flex-shrink: 0;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #FFF;
+        &__ine{
+          width: 220px;
+          height: 161px;
+          flex-shrink: 0;
+          align-items: center;
+        }
+      }
+      &__img2{
+        width: 300px;
+        height: 400px;
+        flex-shrink: 0;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #FFF;
+        margin: 36px 37px 45px 25px;
+      }
+      }
     }
   }
-}
   .form {
     background: #F4F9FC;
     display: flex;
@@ -854,7 +921,6 @@
     padding: 70px 0 70px 180px;
 
     &__text {
-
       &__red {
         color: #C72535;
         font-family: Hind Siliguri sans-serif;
@@ -929,3 +995,81 @@
       }
     }
   }
+.footer{
+  background: #030D15;
+  height: 396px;
+  flex-shrink: 0;
+  &__box{
+  }
+  &__texts{
+    display: flex;
+    column-gap: 31px;
+    align-items: center;
+    justify-content: center;
+
+    &__url{
+      column-gap: 26px;
+      margin-top: 75px;
+      &__h1{
+        width: 164px;
+        color: #FFF;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      &__ul{
+        color: #FFF;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.6;
+        width: 164px;
+        margin-top: 26px;
+      }
+      &__li{
+        margin-top: 15px;
+      }
+      &__store{
+        color: #FFF;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 261px;
+        opacity: 0.6;
+        margin-top: 22px;
+      }
+      &__english{
+        color: #FFF;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 26px;
+      }
+      &__span{
+        width: 174.641px;
+        height: 15.25px;
+        flex-shrink: 0;
+        opacity: 0.6;
+        margin-top: 16px;
+      }
+      &__com{
+        color: #FFF;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: 261px;
+        margin-top: 14px;
+      }
+    }
+  }
+}

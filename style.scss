@@ -1,0 +1,931 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.container{
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.header {
+  padding:33px 230px 88px 230px ;
+  background: #fff;
+  justify-content: center;
+
+  &__nav {
+    display: flex;
+    column-gap: 170px;
+  }
+
+  &__right {
+    display: flex;
+    column-gap: 156px;
+  }
+
+  &__title {
+    width: 106px;
+    height: 25px;
+    flex-shrink: 0;
+    align-items: center;
+  }
+
+  &__menu {
+    display: flex;
+    column-gap: 70px;
+    align-items: center;
+    &_link {
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  }
+  &__number {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+  }
+}
+.enjoy{
+  padding: 88px 144px 208px 230px ;
+  display: flex;
+  &__content{
+    display: flex;
+  }
+  &__info{
+    width: 50%;
+  }
+  &__play{
+    color: var(--c-72535, #C72535);
+    font-family: Hind Siliguri sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    width: 166px;
+    opacity: 0.6;
+    margin-top:50px;
+  }
+  &__title{
+    width: 555px;
+  }
+  &__the{
+    width: 515px;
+    opacity: 0.6;
+    color: #030D15;
+    font-family: Hind Siliguri sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 29px;
+  }
+  &__mainphoto{
+    width: 643px;
+    height: 611px;
+    flex-shrink: 0;
+  }
+  &__btns{
+    display: flex;
+    column-gap: 66px;
+    margin-top: 31px;
+  }
+  &__btn1{
+    padding: 16px 35px 16px 34px;
+    gap: 10px;
+    border: 1px solid #247CC0;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: Hind Siliguri sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #247CC0;
+  }
+  &__btn2{
+    display: flex;
+    column-gap:18px;
+    color: #030D15;
+    font-family: Hind Siliguri sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    align-items: center;
+    font-weight: 500;
+    line-height: 27px;
+    &__text{
+      color: #030D15;
+      text-align: center;
+      font-family: Hind Siliguri sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 27px;
+      text-decoration-line:line-through;
+      opacity: 0.5;
+    }
+  }
+  &__row{
+    display: flex;
+    flex-direction: row ;
+    list-style-type: none;
+    padding: 74px 118px 74px 118px;
+    column-gap:84px;
+  }
+  &__item{
+    align-items: center;
+  }
+  &__item-sum{
+    width: 163px;
+    height: 85px;
+    flex-shrink: 0;
+  }
+}
+.posts__top{
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.form{
+  padding: 120px 0 180px;
+  text-align: center;
+  h2{
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 10px 0 60px;
+  }
+  p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  &__submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    input{
+      width: 422px;
+      height: 52px;
+      padding-left: 16px;
+      border-radius: 4px;
+      border: 1px solid #D7DADD;
+    }
+    button{
+      background: linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%);
+      width: 154px;
+      height: 52px;
+      color: white;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 52px; /* 325% */
+      letter-spacing: 0.5px;
+      border: none;
+      border-radius: 4px;
+    }
+  }
+}
+.carousel{
+  .swiper-slide{
+    display: flex;
+    padding: 0 240px 160px 230px;
+    column-gap: 37px
+  }
+  &__img{
+    width: 262px;
+    height: 248px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: url, lightgray 32.856px 29.548px / 74.912% 79.141% no-repeat;
+  }
+  &__card{
+    column-gap: 37px;
+    &__h{
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 25px;
+    }
+    &__p{
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      opacity: 0.6;
+      width: 256px;
+      margin-bottom: 9px;
+    }
+    &__div1{
+      display: flex;
+      color: var(--B, #030D15);
+      text-align: center;
+      font-family: Hind Siliguri sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 27px;
+      margin-top: 16px;
+      &__p2{
+        color: var(--B, #030D15);
+        text-align: center;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 27px; /* 192.857% */
+        text-decoration-line:line-through;
+        opacity: 0.5;
+      }
+    }
+    &__uix{
+      margin-top: 15px;
+      width: 65px;
+      height: 11.774px;
+      flex-shrink: 0;
+    }
+
+  }
+}
+.color{
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  padding: 160px 230px 46px 230px;
+  &__right{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: linear-gradient(257deg, #008BF0 -13.2%, #D943C9 130.95%);
+    width: 555px;
+    height: 296px;
+    flex-shrink: 0;
+    &__info{
+      margin: 60px 0 75px 35px;
+      column-gap: 7px;
+      &__get{
+        color: var(--e-6-edf-2, #F4F9FC);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px; /* 168.75% */
+        text-transform: uppercase;
+        opacity: 0.6;
+        text-align: center;
+      }
+      &__h1{
+        color: var(--e-6-edf-2, #F4F9FC);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40.3px;
+        width: 249px;
+        text-align: center;
+      }
+      &__now{
+        color: var(--e-6-edf-2, #F4F9FC);
+        text-align: center;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        text-transform: uppercase;
+      }
+    }
+    &__img{
+      width: 275px;
+      height: 231px;
+      flex-shrink: 0;
+      margin: -30px 35px 95px 0;
+    }
+  }
+  &__left{
+    display:flex;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: linear-gradient(257deg, #008BF0 -13.2%, #D943C9 130.95%);
+    width: 555px;
+    height: 296px;
+    flex-shrink: 0;
+    &__info{
+      column-gap: 7px;
+      margin: 60px 0 75px 35px;
+      &__get{
+        color: var(--e-6-edf-2, #F4F9FC);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px; /* 168.75% */
+        text-transform: uppercase;
+        opacity: 0.6;
+        text-align: center;
+      }
+      &__h1{
+        color: var(--e-6-edf-2, #F4F9FC);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40.3px;
+        width: 249px;
+        text-align: center;
+      }
+      &__now{
+        color: var(--e-6-edf-2, #F4F9FC);
+        text-align: center;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        text-transform: uppercase;
+      }
+    }
+    &__img{
+      width: 238.117px;
+      height: 151.263px;
+      flex-shrink: 0;
+      margin: 36px 25px 56px 0;
+    }
+  }
+}
+.about{
+  height: 225px;
+  width: 1260px;
+  background: #FFF;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin: 1px 309px -30px -150px;
+  &__gtr{
+    margin-right: -309px;
+    &__h1 {
+      color: var(--c-72535, #C72535);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 2.03px;
+      text-transform: uppercase;
+      opacity: 0.6;
+    }
+    &__h2{
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+}
+.question{
+  align-items: center;
+  justify-content: center;
+  &__row{
+    display: flex;
+    background: var(--e-6-edf-2, #F4F9FC);
+    width: 1260px;
+    height: 632px;
+    flex-shrink: 0;
+    align-items: center;
+    margin: 84px 230px 98px 0;
+  }
+  &__img{
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    background: url path-to-image, lightgray 0px -0.243px / 100% 100.06% no-repeat;
+    fill: #247CC0;
+  }
+  &__info{
+    width: 50%;
+    margin-left: 200px;
+  }
+  &__who{
+    color: var(--B, #030D15);
+    font-family: Hind Siliguri sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 457px;
+    opacity: 0.6;
+    width: 457px;
+  }
+  &__list{
+    margin-top: 40px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__items{
+    display: flex;
+    column-gap: 13px;
+  }
+}
+.online {
+  padding-top: 150px;
+
+  &__fer {
+    &__subtitle {
+      color: var(--c-72535, #C72535);
+      text-align: center;
+      font-family: Hind Siliguri sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 2.03px;
+      text-transform: uppercase;
+      opacity: 0.6;
+    }
+
+    &__title {
+      color: var(--B, #030D15);
+      text-align: center;
+      font-family: Hind Siliguri sans-serif;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 600;
+      justify-content: center;
+    }
+  }
+
+  &__tabs {
+    margin: 22px 0 50px 0;
+    display: flex;
+    column-gap: 12px;
+    justify-content: center;
+
+    &-tab {
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+      opacity: 0.6;
+      cursor: pointer;
+      border: 1px solid transparent;
+
+      &.active {
+        border: 1px solid #FF3F3A;
+        border-radius: 4px;
+        color: #FF3F3A;
+
+        svg path {
+          fill: #FF3F3A;
+        }
+      }
+
+      &:hover {
+        border: 1px solid #FF3F3A;
+        border-radius: 4px;
+        color: #FF3F3A;
+
+        svg path {
+          fill: #FF3F3A;
+        }
+      }
+    }
+  }
+
+  &__label {
+    position: relative;
+    margin-left: 100px;
+  }
+
+  &__el {
+    position: absolute;
+    top: 15px;
+    right: 14px;
+  }
+
+  &__input {
+    width: 315px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 4px;
+    border: 1px solid var(--gray-400, #D7DADD);
+    padding-left: 16px;
+    outline: none;
+  }
+
+  &-text {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 12px;
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+  }
+
+  &__card {
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    width: 360px;
+    height: 503px;
+    flex-shrink: 0;
+    &__nln{
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27px;
+      margin-left:30px;
+      margin-top: 20px;
+    }
+    &__zvezda {
+      display: flex;
+      column-gap: 125px;
+      margin-top: 7px;
+    }
+
+    &__price3 {
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 27px;
+      display: flex;
+      margin-top: 40px;
+
+      &__price4 {
+        color: var(--B, #030D15);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 27px;
+        text-decoration-line: line-through;
+        opacity: 0.5;
+      }
+    }
+
+    &__info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 70px;
+
+      &__mark {
+        color: var(--B, #030D15);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      &__p {
+        width: 22px;
+        height: 20px;
+        flex-shrink: 0;
+      }
+    }
+
+    &__nln {
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27px;
+    }
+
+    &__img1 {
+      width: 286px;
+      height: 273px;
+      flex-shrink: 0;
+      margin: 35px 37px 0 37px;
+    }
+
+    &__img2 {
+      width: 243px;
+      height: 232px;
+      flex-shrink: 0;
+      margin: 74px 59px 0 59px;
+    }
+
+    &__img3 {
+      width: 265px;
+      height: 140px;
+      flex-shrink: 0;
+      margin: 112px 48px 0 47px;
+    }
+
+    &__img4 {
+      width: 326px;
+      height: 313px;
+      flex-shrink: 0;
+      margin: 15px 17px 0 17px;
+    }
+
+    &__price {
+      width: 84px;
+      height: 15.216px;
+      flex-shrink: 0;
+      margin-top: 7px;
+    }
+
+    &__img5 {
+      width: 275px;
+      height: 262px;
+      flex-shrink: 0;
+      background: url, lightgray 37.314px 43.32px / 73.565% 77.211% no-repeat;
+      margin: 41px 42px 0 42px;
+    }
+
+    &__img6 {
+      width: 266px;
+      height: 253px;
+      flex-shrink: 0;
+      margin: 49px 47px 0 47px;
+      background: url, lightgray 0px -6.27px / 100% 104.956% no-repeat;
+    }
+
+    &-title {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 150%;
+      margin: 21px 0;
+    }
+
+    &__price1 {
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 27px;
+      display: flex;
+
+      &__price2 {
+        color: var(--B, #030D15);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 27px;
+        text-decoration-line: line-through;
+        opacity: 0.5;
+      }
+    }
+  }
+  &__bottom{
+    color: var(--B, #030D15);
+    text-align: center;
+    font-family: Hind Siliguri sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    justify-content: center;
+    margin: 56px 0 146px 0;
+  }
+}
+.offline {
+  padding-top: 150px;
+  &__fer {
+    &__subtitle {
+      color: var(--c-72535, #C72535);
+      text-align: center;
+      font-family: Hind Siliguri sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 2.03px;
+      text-transform: uppercase;
+      opacity: 0.6;
+    }
+
+    &__title {
+      color: var(--B, #030D15);
+      text-align: center;
+      font-family: Hind Siliguri sans-serif;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 600;
+      justify-content: center;
+    }
+    &__text{
+      color: var(--B, #030D15);
+      font-family: Hind Siliguri sans-serif;
+      width: 457px;
+      opacity: 0.6;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      margin-left: 420px;
+    }
+  }
+  &__carden {
+    align-items: center;
+    background: #FFF;
+    width: 360px;
+    flex-shrink: 0;
+
+    &__img5 {
+      width: 300px;
+      height: 400px;
+      flex-shrink: 0;
+      border: 1px solid rgba(0, 0, 0, 0.10);
+      background: #FFF;
+      margin: 36px 37px 45px 25px;
+    }
+
+    &__img6 {
+      width: 360px;
+      height: 354px;
+      flex-shrink: 0;
+      border: 1px solid rgba(0, 0, 0, 0.10);
+      background: url, lightgray 59.671px 46.048px / 67.594% 68.74% no-repeat;
+      margin-top: 30px;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  &__carder {
+    align-items: center;
+    background: #FFF;
+    justify-content: center;
+    &__img4 {;
+      width: 360px;
+      height: 252px;
+      flex-shrink: 0;
+      border: 1px solid rgba(0, 0, 0, 0.10);
+    }
+    &__img7{
+      width: 360px;
+      height: 252px;
+      flex-shrink: 0;
+      margin-top: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.10);
+    }
+    &__img8{
+      width: 360px;
+      height: 252px;
+      flex-shrink: 0;
+      background: url, lightgray 50% / cover no-repeat;
+      margin-top:30px ;
+      border: 1px solid rgba(0, 0, 0, 0.10);
+      justify-content: center;
+    }
+  }
+
+  &__card {
+
+    &__im1{
+      width: 360px;
+      height: 354px;
+      flex-shrink: 0;
+      border: 1px solid rgba(0, 0, 0, 0.10);
+      background: url, lightgray 59.671px 46.048px / 67.594% 68.74% no-repeat;
+    }
+    &__img2{
+      width: 360px;
+      height: 456px;
+      flex-shrink: 0;
+      background: #FFF;
+      margin-top: 30px;
+    }
+    &__info{
+      display: flex;
+      column-gap: 70px;
+      margin:53px 35px 28px 35px;
+    }
+  }
+}
+  .form {
+    background: #F4F9FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1260px;
+    height: 310px;
+    column-gap: 300px;
+    padding: 70px 0 70px 180px;
+
+    &__text {
+
+      &__red {
+        color: #C72535;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2.03px;
+        text-transform: uppercase;
+        opacity: 0.6;
+      }
+
+      &__black {
+        color: #030D15;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      &__blue {
+        color: #030D15;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        opacity: 0.6;
+        width: 360px;
+        margin-top: 10px;
+      }
+    }
+
+    &__culm {
+      display: flex;
+      padding: 160px 0 130px 0;
+
+      &__submit {
+        column-gap: 24px;
+        color: #FFF;
+        text-align: center;
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+
+        input {
+          width: 300px;
+          height: 40px;
+          flex-shrink: 0;
+          border: 1px solid rgba(0, 0, 0, 0.10);
+          background: #FFF;
+        }
+
+        button {
+          background: var(--p, #247CC0);
+          width: 100px;
+          height: 40px;
+          flex-shrink: 0;
+          color: #FFF;
+          text-align: center;
+          font-family: Hind Siliguri sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }

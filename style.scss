@@ -315,10 +315,10 @@
       }
     }
     &__img{
-      width: 275px;
-      height: 231px;
+      width: 260px;
+      height: 220px;
       flex-shrink: 0;
-      margin: -30px 35px 95px 0;
+      margin: -30px 60px 95px 0;
     }
   }
   &__left{
@@ -363,7 +363,7 @@
         text-transform: uppercase;
       }
     }
-    &__img{
+    &__img1{
       width: 238.117px;
       height: 151.263px;
       flex-shrink: 0;
@@ -863,35 +863,47 @@
   }
 
   &__cardes{
-    &__pryce3 {
-      color: var(--B, #030D15);
-      font-family: Hind Siliguri sans-serif;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 27px;
-      display: flex;
-      margin-top: 40px;
-    }
-    &__pryce4{
-      color: var(--B, #030D15);
-      font-family: Hind Siliguri sans-serif;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 300;
-      line-height: 27px;
-      text-decoration-line: line-through;
-      opacity: 0.5;
-    }
     &__card {
       align-items: center;
       background: #FFF;
-      &__im1{
-        width: 360px;
-        height: 354px;
+      border: 1px solid rgba(0, 0, 0, 0.10);
+      width: 360px;
+      height: 330px;
+      flex-shrink: 0;
+      &__pryce3 {
+        color: var(--B, #030D15);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        display: flex;
+        margin:35px 0 0 35px;
+      }
+      &__pryce4{
+        color: var(--B, #030D15);
+        font-family: Hind Siliguri sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 27px;
+        text-decoration-line: line-through;
+        opacity: 0.5;
+      }
+      &__zvezdochka{
+        margin: 0 0 0 35px;
+      }
+      &__info{
+        display: flex;
+        column-gap: 70px;
+        justify-content: center;
+        margin-top: 25px;
+      }
+      &__img1{
+        width: 220px;
+        height: 161px;
         flex-shrink: 0;
-        border: 1px solid rgba(0, 0, 0, 0.10);
-        background: #FFF;
+        margin: 10px 70px 0 70px;
         &__ine{
           width: 220px;
           height: 161px;
@@ -899,6 +911,8 @@
           align-items: center;
         }
       }
+      }
+    &__cardw{
       &__img2{
         width: 300px;
         height: 400px;
@@ -907,7 +921,8 @@
         background: #FFF;
         margin: 36px 37px 45px 25px;
       }
-      }
+      margin-top: 30px;
+    }
     }
   }
   .form {

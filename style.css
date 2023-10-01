@@ -401,11 +401,11 @@
   text-transform: uppercase;
 }
 .color__right__img {
-  width: 275px;
-  height: 231px;
+  width: 260px;
+  height: 220px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: -30px 35px 95px 0;
+  margin: -30px 60px 95px 0;
 }
 .color__left {
   display: -webkit-box;
@@ -455,7 +455,7 @@
   line-height: 27px;
   text-transform: uppercase;
 }
-.color__left__img {
+.color__left__img1 {
   width: 238.117px;
   height: 151.263px;
   -ms-flex-negative: 0;
@@ -1009,7 +1009,18 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.offline__cardes__pryce3 {
+.offline__cardes__card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 360px;
+  height: 330px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.offline__cardes__card__pryce3 {
   color: var(--B, #030D15);
   font-family: Hind Siliguri sans-serif;
   font-size: 20px;
@@ -1019,9 +1030,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 40px;
+  margin: 35px 0 0 35px;
 }
-.offline__cardes__pryce4 {
+.offline__cardes__card__pryce4 {
   color: var(--B, #030D15);
   font-family: Hind Siliguri sans-serif;
   font-size: 14px;
@@ -1031,21 +1042,29 @@
   text-decoration-line: line-through;
   opacity: 0.5;
 }
-.offline__cardes__card {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #FFF;
+.offline__cardes__card__zvezdochka {
+  margin: 0 0 0 35px;
 }
-.offline__cardes__card__im1 {
-  width: 360px;
-  height: 354px;
+.offline__cardes__card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 70px;
+     -moz-column-gap: 70px;
+          column-gap: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+}
+.offline__cardes__card__img1 {
+  width: 220px;
+  height: 161px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background: #FFF;
+  margin: 10px 70px 0 70px;
 }
-.offline__cardes__card__im1__ine {
+.offline__cardes__card__img1__ine {
   width: 220px;
   height: 161px;
   -ms-flex-negative: 0;
@@ -1054,7 +1073,10 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.offline__cardes__card__img2 {
+.offline__cardes__cardw {
+  margin-top: 30px;
+}
+.offline__cardes__cardw__img2 {
   width: 300px;
   height: 400px;
   -ms-flex-negative: 0;
